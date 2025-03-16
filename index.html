@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un poco de nosotros</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url('https://lh3.googleusercontent.com/d/1XOgCfpd2tjyYexmn8x58OdbFp_xeb7S6');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: rgb(255, 255, 255);
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+        }
+        .overlay button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .video-container {
+            display: none;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .video-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+        }
+        .video-item:nth-child(odd) iframe {
+            border: 4px solid #79a4d5;
+        }
+        .video-item:nth-child(even) iframe {
+            border: 4px solid rgb(149, 202, 149);
+        }
+        .description {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        function showGallery() {
+            document.getElementById("overlay").style.display = "none";
+            document.getElementById("video-container").style.display = "grid";
+        }
+    </script>
+</head>
+<body>
+    <div id="overlay" class="overlay">
+        <h1>HOLA MIAMOR HERMOSO </h1>
+        <p>Aca esta un poco de nosotros y al igual que el internet estos videos estaran aca toda la vida</p>
+        <p>iremos llenando cada vez más y más yyyy con el tiempo lo ire decorando cada mas bonito para los dos</p>
+        <P>cada uno de estos videos son importantes para ambos, para nunca olvidar lo felices que fuimos y eso que falta aun más</P>
+        <button onclick="showGallery()">TE AMO</button>
+    </div>
+
+    <div id="video-container" class="video-container">
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/17xHH6tkQLkupu6EAtxOcwZa_kdQs_bg5/preview" allow="autoplay"></iframe>
+            <p class="description">Nos encantan las hamburguesas no amor? o bueno quiza más la compañia del otro, weno ambos jsjdk </p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1yVT4SVxvW08_OgPnGzSHqBCi0Hj92CQ0/preview" allow="autoplay"></iframe>
+            <p class="description">Me encanto ese besito del final</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1EZEABWWoQHPe3xM_XIaoGayWeorwVJx7/preview" allow="autoplay"></iframe>
+            <p class="description">"Si te muerdo es con amor" me encanta sentir tu amor corazon</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1eDW9GbqD9sFlOxWhojWjuD1yQEWHAYvi/preview" allow="autoplay"></iframe>
+            <p class="description">*Posan en guapo*</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1Zb9K1o-_EDm0rjvI_EOwU2nSsCj7mPpI/preview " allow="autoplay"></iframe>
+            <p class="description">Me mata la voz jskjsdk, cuando podemos ir por unos bobas? </p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1G9CCyahb35lPurJWVAxEW2EnIx6zD2jM/preview" allow="autoplay"></iframe>
+            <p class="description">https://www.youtube.com/watch?v=s2siXHeWsV8</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1ONCDZcMySKa6PXC478zBoeCJD4QMbaEk/preview" allow="autoplay"></iframe>
+            <p class="description">Me encanta estar frente a frente contigo y poder darnos un beso de esquimal  </p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1JUyzOI2BAO8dC159csA9nG_MQOa37rW_/preview" allow="autoplay"></iframe>
+            <p class="description">Un halloween un poco mas romantico que de costumbre, espero repetirlo </p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1eetThPu3fy-T3RRjcIcv1iu3Hx3ALVZ6/preview" allow="autoplay"></iframe>
+            <p class="description">Locuuuura, pero por tiiiii jsjsjs</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1TNGw8kJWh8IeDwG7VjCvJCDgOQV5Ci3F/preview" allow="autoplay"></iframe>
+            <p class="description">*Sonido de viento.mp3* me encanta ese video </p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1ocBxw1hW9iedSWyENNbptW-_8KRMpKVj/preview" allow="autoplay"></iframe>
+            <p class="description">Hay algunn video mas bonito que este? creo que no sabria decirte psdt:no me mates si me olvido mi chompita</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://drive.google.com/file/d/1qkYUKTgoc9VcYun0H1XTshWhU4zlnzyn/preview" allow="autoplay"></iframe>
+            <p class="description">Te amoooooo demasiado, eso nunca lo dudes</p>
+        </div>
+    </div>
+</body>
+</html>
+
